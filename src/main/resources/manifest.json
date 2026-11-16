@@ -1,0 +1,25 @@
+{
+    "Group": "absturz",
+    "Name": "EntityChess",
+    "Version": "0.0.1",
+    "Description": "This plugin give you a chessboard with Hytale entities as pieces",
+    "Authors": [
+        {
+            "Name": "Richy"
+        }
+    ],
+    "Website": "",
+    "DisabledByDefault": false,
+    "IncludesAssetPack": true,
+    "Dependencies": {
+        "Hytale:AssetModule": "*"
+    },
+    "OptionalDependencies": {
+        
+    },
+    "ServerVersion": ">=0.7.5 <0.8.0",
+    "Main": "net.absturz.EntityChess",
+    "UpdateChecker": {
+        "CurseForge": ""
+    }
+}
