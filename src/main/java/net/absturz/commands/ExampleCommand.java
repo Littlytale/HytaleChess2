@@ -17,7 +17,7 @@ public class ExampleCommand extends AbstractCommand {
     @Nullable
     @Override
     protected CompletableFuture<Void> execute(@Nonnull CommandContext context) {
-        context.sendMessage(Message.raw("What a Chess WORLD!! !"));
+        context.sendMessage(Message.raw("Test 1, Test 2"));
         return CompletableFuture.completedFuture(null);
     }
 
